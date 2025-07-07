@@ -193,29 +193,31 @@
   
    <!-- Width layout, will be displayed when clicking on "Width" previous defined button -->
 	<layout name="width">
- <row>
- <button type="voicerec" icon="voice_32x32.png" />
- <button type="picture" icon="camera_32x32.png" />
- <button type="textnote" icon="text_32x32.png" />
- </row>
- <row>
-   <!-- 3 standard tag buttons -->
- <button type="tag" label="width 0.5" icon="TrailMapping_icons/width-narrow.png" />
- <button type="tag" label="width 0.75" icon="button_way_residential.png" />
- <button type="tag" label="width 1" icon="TrailMapping_icons/width.png" />
- </row>
- <row>
-   <!-- 3 standard tag buttons -->
- <button type="tag" label="width 1.2" icon="TrailMapping_icons/width-narrow.png" />
- <button type="tag" label="width 1.5" icon="button_way_residential.png" />
- <button type="tag" label="width 1.7" icon="TrailMapping_icons/width.png" />
-  </row>
-  <row>
-   <!-- 3 standard tag buttons -->
- <button type="tag" label="width 2" icon="TrailMapping_icons/width-narrow.png" />
- <button type="tag" label="width 2.5" icon="button_way_residential.png" />
- <button type="tag" label="width 3" icon="TrailMapping_icons/width.png" />
-  </row>
+	 <row>
+		 <button type="tag" label="6in (0.15m)" icon="TrailMapping_icons/width-narrow.png" />
+		 <button type="tag" label="12in (0.3m)" icon="button_way_residential.png" />
+		 <button type="tag" label="19in (0.5m)" icon="TrailMapping_icons/width.png" />
+		 <button type="page" label="Home" icon="TrailMapping_icons/button_landuse_farm.png" targetlayout="root" />
+   
+	 </row>
+	 <row>
+	   <!-- 3 standard tag buttons -->
+		 <button type="tag" label="39in (1.0m)" icon="TrailMapping_icons/width-narrow.png" />
+		 <button type="tag" label="60in (1.5m)" icon="button_way_residential.png" />
+		 <button type="tag" label="79in (2.0m)" icon="TrailMapping_icons/width.png" />
+	 </row>
+	 <row>
+	   <!-- 3 standard tag buttons -->
+		 <button type="tag" label="width 1.2" icon="TrailMapping_icons/width-narrow.png" />
+		 <button type="tag" label="width 1.5" icon="button_way_residential.png" />
+		 <button type="tag" label="width 1.7" icon="TrailMapping_icons/width.png" />
+	  </row>
+	  <row>
+	   <!-- 3 standard tag buttons -->
+		 <button type="tag" label="width 2" icon="TrailMapping_icons/width-narrow.png" />
+		 <button type="tag" label="width 2.5" icon="button_way_residential.png" />
+		 <button type="tag" label="width 3" icon="TrailMapping_icons/width.png" />
+	  </row>
   </layout>
   
  <!-- Tracktype layout, will be displayed when clicking on "Wheelchair & Tracktype" previous defined button -->
