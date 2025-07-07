@@ -192,7 +192,7 @@
   </layout>
   
    <!-- Width layout, will be displayed when clicking on "Width" previous defined button -->
-	<layout name="width">
+	<layout name="width_icons">
 	 <row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
 		 <button type="tag" label="6in 0.15m" icon="TrailMapping_icons/width-narrow.png" />
@@ -221,7 +221,38 @@
 		 <button type="tag" label="su= wood" icon="TrailMapping_icons/brown-layers.png" />
 		 <button type="tag" label="su= metal" icon="" />
 	 </row>
- </layout>
+</layout>
+     <!-- Width layout, will be displayed when clicking on "Width" previous defined button -->
+<layout name="width">
+	 <row>
+		 <button type="page" label="Home" targetlayout="root" />
+		 <button type="tag" label="6in 0.15m"  />
+		 <button type="tag" label="12in 0.3m"  />
+		 <button type="tag" label="19in 0.5m"  />
+		 </row>
+	 <row>
+	   <!-- 3 standard tag buttons -->
+		 <button type="tag" label="39in 1.0m"  />
+		 <button type="tag" label="60in 1.5m"  />
+		 <button type="tag" label="79in 2.0m"  />
+	 </row>
+
+	 <!-- Row 3 : Surface : ground, paved, paving_stones,compacted, -->
+	 <row>
+		 <button type="tag" label="su= ground" />
+		 <button type="tag" label="su= paved"  />
+		 <button type="tag" label="su= stepping_stones"  />
+		 <button type="tag" label="su= compacted"  />
+	 </row>
+
+	 <!-- Row 4 : Surface : fine_gravel,gravel,wood,metal -->
+	 <row>
+		 <button type="tag" label="su= fine_gravel"  />
+		 <button type="tag" label="su= gravel"  />
+		 <button type="tag" label="su= wood"  />
+		 <button type="tag" label="su= metal"  />
+	 </row>
+</layout>
   
  <!-- Tracktype layout, will be displayed when clicking on "Wheelchair & Tracktype" previous defined button -->
 	<layout name="tracktype">
