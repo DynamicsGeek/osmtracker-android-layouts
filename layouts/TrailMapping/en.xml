@@ -195,34 +195,31 @@
 	<layout name="width">
 	 <row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
-		 <button type="tag" label="6in (0.15m)" icon="TrailMapping_icons/width-narrow.png" />
-		 <button type="tag" label="12in (0.3m)" icon="TrailMapping_icons/width-narrow.png" />
-		 <button type="tag" label="19in (0.5m)" icon="TrailMapping_icons/width-narrow.png" />
+		 <button type="tag" label="6in 0.15m" icon="TrailMapping_icons/width-narrow.png" />
+		 <button type="tag" label="12in 0.3m" icon="TrailMapping_icons/width-narrow.png" />
+		 <button type="tag" label="19in 0.5m" icon="TrailMapping_icons/width-narrow.png" />
 		 </row>
 	 <row>
 	   <!-- 3 standard tag buttons -->
-		 <button type="tag" label="39in (1.0m)" icon="TrailMapping_icons/width.png" />
-		 <button type="tag" label="60in (1.5m)" icon="TrailMapping_icons/width.png" />
-		 <button type="tag" label="79in (2.0m)" icon="TrailMapping_icons/width.png" />
+		 <button type="tag" label="39in 1.0m" icon="TrailMapping_icons/width.png" />
+		 <button type="tag" label="60in 1.5m" icon="TrailMapping_icons/width.png" />
+		 <button type="tag" label="79in 2.0m" icon="TrailMapping_icons/width.png" />
 	 </row>
 
 	 <!-- Row 3 : Surface : ground, paved, paving_stones,compacted, -->
 	 <row>
-		 <button type="tag" label="su=ground" icon="TrailMapping_icons/earth.png" />
-		 <button type="tag" label="su=paved" icon="TrailMapping_icons/paved.png" />
-		 <button type="tag" label="su=stepping_stones" icon="TrailMapping_icons/stepping-stones.png" />
-		 <button type="tag" label="su=compacted" icon="TrailMapping_icons/concrete.png" />
+		 <button type="tag" label="su= ground" icon="TrailMapping_icons/earth.png" />
+		 <button type="tag" label="su= paved" icon="TrailMapping_icons/paved.png" />
+		 <button type="tag" label="su= stepping_stones" icon="TrailMapping_icons/stepping-stones.png" />
+		 <button type="tag" label="su= compacted" icon="TrailMapping_icons/concrete.png" />
 	 </row>
 
 	 <!-- Row 4 : Surface : fine_gravel,gravel,wood,metal -->
 	 <row>
-		 <button type="tag" label="su=fine_gravel" icon="TrailMapping_icons/gravel.png" />
-		 <button type="tag" label="su=gravel" icon="TrailMapping_icons/gravel.png" />
-		 <button type="tag" label="su=wood" icon="TrailMapping_icons/brown-layers.png" />
-		 <button type="tag" label="su=metal" icon="" />
-	 </row>
-	 <row>
-		 <button type="tag" label="wood" icon="TrailMapping_icons/wood.png" />
+		 <button type="tag" label="su= fine_gravel" icon="TrailMapping_icons/gravel.png" />
+		 <button type="tag" label="su= gravel" icon="TrailMapping_icons/gravel.png" />
+		 <button type="tag" label="su= wood" icon="TrailMapping_icons/brown-layers.png" />
+		 <button type="tag" label="su= metal" icon="" />
 	 </row>
  </layout>
   
