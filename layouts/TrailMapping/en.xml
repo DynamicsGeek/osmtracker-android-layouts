@@ -1,0 +1,300 @@
+<!--
+
+
+-->
+<layouts>
+
+ <!-- Main layout, the first to be displayed -->
+ <layout name="root">
+  <row>
+   <!-- 3 special action buttons -->
+   <button type="voicerec" label="Voice record" icon="voice.png" />
+   <button type="picture" label="Take picture" icon="camera.png" />
+   <button type="textnote" label="Text note" icon="text.png" />
+  </row>
+   <row>
+   <!-- "link" to 3 sub pages -->
+   <button type="page" label="Looks like" icon="TrailMapping_icons/button_way.png" targetlayout="physical" />
+   <button type="page" label="Designation" icon="TrailMapping_icons/button_amenity_library.png" targetlayout="designation" />
+   <button type="page" label="Access" icon="TrailMapping_icons/button_restriction.png" targetlayout="access" />
+  </row>
+  <row>
+   <!-- "link" to 4 sub pages -->
+   <button type="page" label="Barrier" icon="TrailMapping_icons/button_misc_bollard.png" targetlayout="barrier" />
+   <button type="page" label="Various" icon="TrailMapping_icons/button_tourism_monument.png" targetlayout="various" />
+   <button type="page" label="Width" icon="TrailMapping_icons/width.png" targetlayout="width" />
+  </row>  
+  <row>
+   <!-- "link" to 3 sub pages -->
+   <button type="page" label="Surface" icon="TrailMapping_icons/button_landuse_farm.png" targetlayout="surface" />
+   <button type="page" label="Tracktype" icon="TrailMapping_icons/button_track_grade3.png" targetlayout="tracktype" />
+   <button type="page" label="Smoothness" icon="TrailMapping_icons/button_track.png" targetlayout="smoothness" />
+  </row>
+ </layout>
+
+  <!-- physical layout, will be displayed when clicking on "Looks like" previous defined button -->
+	<layout name="physical">
+ <row>
+   <!-- 3 special action buttons -->
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+ <button type="tag" label="footway" icon="TrailMapping_icons/button_track_pedestrian.png" />
+ <button type="tag" label="bridleway" icon="TrailMapping_icons/button_track_bridleway.png" />
+ <button type="tag" label="cycleway" icon="TrailMapping_icons/button_track_cycleway.png" />
+ </row>
+ <row>
+ <button type="tag" label="track" icon="TrailMapping_icons/button_track_grade1.png" />
+ <button type="tag" label="path" icon="TrailMapping_icons/button_track_footway.png" />
+ <button type="tag" label="road" icon="TrailMapping_icons/button_way_residential.png" />
+ <button type="tag" label="service" icon="TrailMapping_icons/button_way_service.png" />
+ </row>
+ <row>
+ <button type="tag" label="steps" icon="TrailMapping_icons/button_track_steps.png" />
+ <button type="tag" label="bridge" icon="TrailMapping_icons/bridge.png" />
+ <button type="tag" label="ford" icon="TrailMapping_icons/button_car.png" />
+ <button type="tag" label="tunnel" icon="TrailMapping_icons/record_grey.png" />
+ </row>
+  </layout>
+
+  <!-- Designation layout, will be displayed when clicking on "Designation" previous defined button -->
+	<layout name="designation">
+ <row>
+   <!-- 3 special action buttons -->
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 4 standard tag buttons -->
+   <button type="tag" label="public_footpath" icon="TrailMapping_icons/button_track_pedestrian.png" />
+   <button type="tag" label="public_bridleway" icon="TrailMapping_icons/button_track_bridleway.png" />
+   <button type="tag" label="restricted_byway" icon="TrailMapping_icons/jeep.png" />
+   <button type="tag" label="byway_open_to_all_traffic" icon="TrailMapping_icons/jeep-1.png" />
+ </row>
+ <row>
+   <!-- 4 standard tag buttons -->
+ <button type="tag" label="permissive_footpath" icon="TrailMapping_icons/button_track_pedestrian.png" />
+ <button type="tag" label="permissive_bridleway" icon="TrailMapping_icons/button_track_bridleway.png" />
+ <button type="tag" label="permissive_cycleway" icon="TrailMapping_icons/button_track_cycleway.png" />
+ </row>
+ <row>
+  <button type="tag" label="customers_only" icon="TrailMapping_icons/cash.png" />
+  <button type="tag" label="residents_only" icon="TrailMapping_icons/house.png" />
+  <button type="tag" label="motor_vehicle_private" icon="TrailMapping_icons/car-N.png" />
+  <button type="tag" label="access_rights_unknown" icon="TrailMapping_icons/question.png" />
+ </row>
+  </layout>
+  
+ <!-- Access layout, will be displayed when clicking on "Access" previous defined button -->
+	<layout name="access">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+ <button type="tag" label="Foot Y" icon="TrailMapping_icons/foot-Y.png" />
+ <button type="tag" label="Foot N" icon="TrailMapping_icons/foot-N.png" />
+ <button type="tag" label="Bike Y" icon="TrailMapping_icons/bike-Y.png" />
+ <button type="tag" label="Bike N" icon="TrailMapping_icons/bike-N.png" />
+ </row>
+ <row>
+ <button type="tag" label="Horse Y" icon="TrailMapping_icons/horse-Y.png" />
+ <button type="tag" label="Horse N" icon="TrailMapping_icons/horse-N.png" />
+ <button type="tag" label="Mcycle Y" icon="TrailMapping_icons/mcycle-Y.png" />
+ <button type="tag" label="Mcycle N" icon="TrailMapping_icons/mcycle-N.png" />
+ </row>
+ <row>
+ <button type="tag" label="Car Y" icon="TrailMapping_icons/car-Y.png" />
+ <button type="tag" label="Car N" icon="TrailMapping_icons/car-N.png" />
+ <button type="tag" label="Coach Y" icon="TrailMapping_icons/coach-Y.png" />
+ <button type="tag" label="Coach N" icon="TrailMapping_icons/coach-N.png" />
+ </row>
+  </layout>
+  <!-- Surface layout, will be displayed when clicking on "Surface" previous defined button -->
+	<layout name="surface">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+ <button type="tag" label="asphalt" icon="TrailMapping_icons/asphalt.png" />
+ <button type="tag" label="boardwalk" icon="TrailMapping_icons/brown-layers.png" />
+ <button type="tag" label="brick" icon="TrailMapping_icons/layers.png" />
+ <button type="tag" label="concrete" icon="TrailMapping_icons/concrete.png" />
+ </row>
+ <row>
+ <button type="tag" label="grass" icon="TrailMapping_icons/grass.png" />
+ <button type="tag" label="gravel" icon="TrailMapping_icons/gravel.png" />
+ <button type="tag" label="ground" icon="TrailMapping_icons/earth.png" />
+ <button type="tag" label="mud" icon="TrailMapping_icons/rain.png" />
+ </row>
+ <row>
+ <button type="tag" label="ploughed" icon="TrailMapping_icons/brown-layers.png" />
+ <button type="tag" label="paved" icon="TrailMapping_icons/paved.png" />
+ <button type="tag" label="stepping_stones" icon="TrailMapping_icons/stepping-stones.png" />
+ <button type="tag" label="wood" icon="TrailMapping_icons/wood.png" />
+ </row>
+  </layout>
+  
+    <!-- Barrier layout, will be displayed when clicking on "Barrier" previous defined button -->
+	<layout name="barrier">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 1 standard tag button & 2 page sub-layouts -->
+   <button type="page" label="Stepover" icon="TrailMapping_icons/stile-stepover.png" targetlayout="styles" />
+   <button type="tag" label="stile Squeeze" icon="TrailMapping_icons/stile-squeeze.png" />
+   <button type="page" label="Ladder" icon="TrailMapping_icons/stile-ladder.png" targetlayout="styles" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+   <button type="tag" label="kissing gate" icon="TrailMapping_icons/kissing-gate.png" />
+   <button type="tag" label="gate" icon="TrailMapping_icons/narrow-gate.png" />
+   <button type="tag" label="3m gate" icon="TrailMapping_icons/gate.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+   <button type="tag" label="cycle" icon="TrailMapping_icons/cycle-barrier.png" />
+   <button type="tag" label="wood" icon="TrailMapping_icons/wood.png" />
+   <button type="tag" label="metal" icon="TrailMapping_icons/robot.png" />
+ </row>
+  </layout>
+  
+<!-- Various layout, will be displayed when clicking on "Various" previous defined button -->
+	<layout name="various">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="Lit Yes" icon="TrailMapping_icons/lit.png" />
+ <button type="tag" label="Lit No" icon="TrailMapping_icons/not-lit.png" />
+ <button type="tag" label="Information" icon="TrailMapping_icons/button_tourism_information.png" />
+  </row>
+<row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="Dog Poo" icon="TrailMapping_icons/bin.png" />
+ <button type="tag" label="Dog Yes" icon="TrailMapping_icons/dog-paw-green.png" />
+ <button type="tag" label="Dog No" icon="TrailMapping_icons/dog-paw.png" />
+  </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="Backrest" icon="TrailMapping_icons/button_amenity_bench.png" />
+ <button type="tag" label="Bench 2" icon="TrailMapping_icons/bench-seat.png" />
+ <button type="tag" label="Bench 3" icon="TrailMapping_icons/bench-seat.png" />
+  </row>
+  </layout>
+  
+   <!-- Width layout, will be displayed when clicking on "Width" previous defined button -->
+	<layout name="width">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="width 0.5" icon="TrailMapping_icons/width-narrow.png" />
+ <button type="tag" label="width 0.75" icon="button_way_residential.png" />
+ <button type="tag" label="width 1" icon="TrailMapping_icons/width.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="width 1.2" icon="TrailMapping_icons/width-narrow.png" />
+ <button type="tag" label="width 1.5" icon="button_way_residential.png" />
+ <button type="tag" label="width 1.7" icon="TrailMapping_icons/width.png" />
+  </row>
+  <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="width 2" icon="TrailMapping_icons/width-narrow.png" />
+ <button type="tag" label="width 2.5" icon="button_way_residential.png" />
+ <button type="tag" label="width 3" icon="TrailMapping_icons/width.png" />
+  </row>
+  </layout>
+  
+ <!-- Tracktype layout, will be displayed when clicking on "Wheelchair & Tracktype" previous defined button -->
+	<layout name="tracktype">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 2 standard tag buttons -->
+ <button type="tag" label="wheelchair_yes" icon="TrailMapping_icons/wheelchair.png" />
+ <button type="tag" label="wheelchair_no" icon="TrailMapping_icons/wheelchair-N.png" />
+ </row>
+ <row>
+   <!-- 2 standard tag buttons -->
+ <button type="tag" label="grade 1  solid or paved" icon="TrailMapping_icons/button_track_grade1.png" />
+ <button type="tag" label="grade 2  solid gravel" icon="TrailMapping_icons/button_track_grade2.png" />
+  </row>
+  <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="grade 3  mostly solid" icon="TrailMapping_icons/button_track_grade3.png" />
+ <button type="tag" label="grade 4  mostly soft" icon="TrailMapping_icons/button_track_grade4.png" />
+ <button type="tag" label="grade 5  soft" icon="TrailMapping_icons/button_track_grade5.png" />
+  </row>
+  </layout>
+    
+ <!-- Smoothness layout, will be displayed when clicking on "Smoothness" previous defined button -->
+	<layout name="smoothness">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="excellent  skate board" icon="TrailMapping_icons/ice-skating.png" />
+ <button type="tag" label="good  racing bike" icon="TrailMapping_icons/button_track.png" />
+ <button type="tag" label="intermediate  wheelchair" icon="TrailMapping_icons/wheelchair.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="bad  robust wheels" icon="TrailMapping_icons/jeep.png" />
+ <button type="tag" label="very bad  high clearance" icon="TrailMapping_icons/jeep.png" />
+ <button type="tag" label="horrible  off road wheels" icon="TrailMapping_icons/marshy.png" />
+  </row>
+  <row>
+   <!-- 2 standard tag buttons -->
+ <button type="tag" label="very horrible  tractor" icon="TrailMapping_icons/marshy.png" />
+ <button type="tag" label="impassable" icon="TrailMapping_icons/no-entry.png" />
+  </row>
+  </layout>   
+    
+  
+  <!-- Stiles layout, will be displayed when clicking on "Stepover or Ladder" previous defined button -->
+  	<layout name="styles">
+  <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+  </row>
+  <row>
+ <button type="tag" label="Stile Stepover" icon="TrailMapping_icons/stile-stepover.png" />
+ <button type="tag" label="Stile ladder" icon="TrailMapping_icons/stile-ladder.png" />
+ <button type="tag" label="Steadying post Y" icon="TrailMapping_icons/post.png" />
+  </row>
+  <row>
+ <button type="tag" label="Step-up 1" icon="TrailMapping_icons/stile-ladder-400.png" />
+ <button type="tag" label="Step-up 2" icon="TrailMapping_icons/stile-ladder-450.png" />
+ <button type="tag" label="Steadying post N" icon="TrailMapping_icons/post-no.png" />
+  </row>
+  <row>
+ <button type="tag" label="Step-up 3" icon="TrailMapping_icons/stile-ladder-500.png" />
+ <button type="tag" label="Step-up 4" icon="TrailMapping_icons/stile-ladder-550.png" />
+ <button type="tag" label="Step-up 5" icon="TrailMapping_icons/stile-ladder-600.png" />
+  </row>
+  </layout> 
+</layouts>
