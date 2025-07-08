@@ -226,9 +226,9 @@
 <layout name="width">
 	 <row>
 		 <button type="page" label="Home" targetlayout="root" />
-		 <button type="tag" label="6in 0.15m"  />
-		 <button type="tag" label="12in 0.3m"  />
-		 <button type="tag" label="19in 0.5m"  />
+		 <button type="tag" label="width=0.15 6in"  />
+		 <button type="tag" label="width=0.3 12in"  />
+		 <button type="tag" label="width=0.5 19in "  />
 		 </row>
 	 <row>
 	   <!-- 3 standard tag buttons -->
