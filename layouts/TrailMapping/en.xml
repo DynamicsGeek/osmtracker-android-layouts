@@ -74,25 +74,57 @@
 		 <button type="page" label="Ammenities" icon="" targetlayout="Ammenities" />
 	</row>
 	<row>
-		 <button type="tag" label="osmc:symbol=black⬛" icon="" />
-		 <button type="tag" label="osmc:symbol=gray" icon="" />
-		 <button type="tag" label="osmc:symbol=white⬜" icon="" />
+		 <button type="tag" label="osmc:symbol= black⬛" icon="" />
+		 <button type="tag" label="osmc:symbol= gray" icon="" />
+		 <button type="tag" label="osmc:symbol= white⬜" icon="" />
 		 <button type="tag" label="" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="osmc:symbol=red🟥" icon="" />
-		 <button type="tag" label="symbol=green🟩" icon="" />
-		 <button type="tag" label="osmc:symbol=blue🟦" icon="" />
+		 <button type="tag" label="osmc:symbol= red🟥" icon="" />
+		 <button type="tag" label="symbol= green🟩" icon="" />
+		 <button type="tag" label="osmc:symbol= blue🟦" icon="" />
 		 <button type="tag" label="" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="osmc:symbol=yellow🟨" icon="" />
-		 <button type="tag" label="osmc:symbol=orange🟧" icon="" />
-		 <button type="tag" label="osmc:symbol=purple🟪" icon="" />
-		 <button type="tag" label="osmc:symbol=brown🟫" icon="" />
+		 <button type="tag" label="osmc:symbol= yellow🟨" icon="" />
+		 <button type="tag" label="osmc:symbol= orange🟧" icon="" />
+		 <button type="tag" label="osmc:symbol= purple🟪" icon="" />
+		 <button type="tag" label="osmc:symbol= brown🟫" icon="" />
 	 </row>
 </layout>
  
+ 
+<layout name="Visibility">
+	<!-- Row 1: (Home), (Dificulty), (WidthSurface), (Marking)	-->
+	<!-- Row 2: visibility=excellent (Clearly visible path/markers T1), visibility=good (Path/marker visible when searched T2)	-->
+	<!-- Row 3: visibility=bad (Path/markers sometimes invisible T3), visibility=no (Mostly pathless/no markers T4+)	-->
+	<!-- Row 4: traileblazed=yes, trailbazed=cairnes, trailblazed=poles, trailblazed=symbols	-->
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
+		 <button type="page" label="Width Surface" icon="" targetlayout="WidthSurface" />
+		 <button type="page" label="Marking" icon="" targetlayout="Marking" />
+	</row>
+	<row>
+		 <button type="tag" label="visibility=excellent (Clearly visible path/markers T1)" icon="" />
+		 <button type="tag" label="visibility=good (Path/marker visible when searched T2)" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+
+	<row>
+		 <button type="tag" label="visibility=bad (Path/markers sometimes invisible T3)" icon="" />
+		 <button type="tag" label="visibility=no (Mostly pathless/no markers T4+)" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="traileblazed=yes" icon="" />
+		 <button type="tag" label="trailbazed=cairnes" icon="" />
+		 <button type="tag" label="trailblazed=poles" icon="" />
+		 <button type="tag" label="trailblazed=symbols" icon="" />
+	 </row>
+</layout>
 
 
 </layouts>
