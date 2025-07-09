@@ -9,22 +9,22 @@
 	</row>
 	<row>
 	<!-- "link" to 3 sub pages -->
-		<button type="page" label="Access" icon="TrailMapping_icons/button_restriction.png" targetlayout="Access" />
-		<button type="page" label="Route Marking" icon="TrailMapping_icons/button_way.png" targetlayout="RouteMarking" />
-		<button type="page" label="Width / Surface" icon="TrailMapping_icons/width.png" targetlayout="WidthSurface" />
+		<button type="page" label="Access" icon="" targetlayout="Access" />
+		<button type="page" label="Route Marking" icon="" targetlayout="RouteMarking" />
+		<button type="page" label="Width / Surface" icon="" targetlayout="WidthSurface" />
 	</row>
 	<row>
 	<!-- "link" to 4 sub pages -->
-		<button type="page" label="Visibility" icon="TrailMapping_icons/button_amenity_library.png" targetlayout="Visibility" />
-		<button type="page" label="Difficulty" icon="TrailMapping_icons/button_track.png" targetlayout="Difficulty" />
-		<button type="page" label="Path Structures" icon="TrailMapping_icons/button_misc_bollard.png" targetlayout="PathStructures" />
-		<button type="page" label="Ratings" icon="TrailMapping_icons/button_track_grade3.png" targetlayout="Ratings" />
+		<button type="page" label="Visibility" icon="" targetlayout="Visibility" />
+		<button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
+		<button type="page" label="Path Structures" icon="" targetlayout="PathStructures" />
+		<button type="page" label="Ratings" icon="" targetlayout="Ratings" />
 	</row>  
 	<row>
 	<!-- "link" to 3 sub pages -->
-		<button type="page" label="Amenities" icon="TrailMapping_icons/button_tourism_monument.png" targetlayout="Amenities" />
-		<button type="page" label="Overnight" icon="TrailMapping_icons/button_tourism_monument.png" targetlayout="Overnight" />
-		<button type="page" label="Natural Features" icon="TrailMapping_icons/button_tourism_monument.png" targetlayout="NaturalFeatures" />
+		<button type="page" label="Amenities" icon="" targetlayout="Amenities" />
+		<button type="page" label="Overnight" icon="" targetlayout="Overnight" />
+		<button type="page" label="Natural Features" icon="" targetlayout="NaturalFeatures" />
 	</row>
 </layout>
   
@@ -36,13 +36,13 @@
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
 		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
-		 <button type="tag" label="wid=0.15m (6in)" icon="TrailMapping_icons/width-narrow.png" />
+		 <button type="tag" label="wid=0.15m (6in)" icon="" />
 		 <button type="tag" label="wid=0.30m (12in)" icon="" />
 	</row>
 	<row>
 		 <button type="tag" label="wid=0.5m (20in)" icon="" />
 		 <button type="tag" label="wid=1.0m (3ft)" icon="" />
-		 <button type="tag" label="wid=2.0m (7ft)" icon="TrailMapping_icons/width.png" />
+		 <button type="tag" label="wid=2.0m (7ft)" icon="" />
 		 <button type="tag" label="wid=4.0m (13ft)" icon="" />
 	</row>
 
@@ -64,13 +64,12 @@
 <layout name="RouteMarking">
 	<!-- Row 1: (Home) (Visibility) (Access) (Ammenities)	-->
 	<!-- Row 2: osmc:symbol=black⬛,  osmc:symbol=gray, osmc:symbol=white⬜,	--> 
-	<!-- Row 3: osmc:symbol=red🟥, symbol=green🟩, osmc:symbol=blue🟦  	-->
+	<!-- Row 3: osmc:symbol=red🟥, osmc:symbol=green🟩, osmc:symbol=blue🟦  	-->
 	<!-- Row 4: osmc:symbol=yellow🟨, osmc:symbol=orange🟧, osmc:symbol=purple🟪, osmc:symbol=brown🟫			-->
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
 		 <button type="page" label="Visibility" icon="" targetlayout="Visibility" />
 		 <button type="page" label="Access" icon="" targetlayout="Access" />
-
 		 <button type="page" label="Ammenities" icon="" targetlayout="Ammenities" />
 	</row>
 	<row>
@@ -81,7 +80,7 @@
 	</row>
 	<row>
 		 <button type="tag" label="osmc:symbol= red🟥" icon="" />
-		 <button type="tag" label="symbol= green🟩" icon="" />
+		 <button type="tag" label="osmc:symbol= green🟩" icon="" />
 		 <button type="tag" label="osmc:symbol= blue🟦" icon="" />
 		 <button type="tag" label="" icon="" />
 	</row>
@@ -98,31 +97,55 @@
 	<!-- Row 1: (Home), (Dificulty), (WidthSurface), (Marking)	-->
 	<!-- Row 2: visibility=excellent (Clearly visible path/markers T1), visibility=good (Path/marker visible when searched T2)	-->
 	<!-- Row 3: visibility=bad (Path/markers sometimes invisible T3), visibility=no (Mostly pathless/no markers T4+)	-->
-	<!-- Row 4: traileblazed=yes, trailbazed=cairnes, trailblazed=poles, trailblazed=symbols	-->
+	<!-- Row 4: trailblazed=yes, trailblazed=cairnes, trailblazed=poles, trailblazed=symbols	-->
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
-		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
-		 <button type="page" label="Width Surface" icon="" targetlayout="WidthSurface" />
-		 <button type="page" label="Marking" icon="" targetlayout="Marking" />
+		 <button type="tag" label="vis=excel (visible path/markers T1)" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="visibility=excellent (Clearly visible path/markers T1)" icon="" />
-		 <button type="tag" label="visibility=good (Path/marker visible when searched T2)" icon="" />
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="trailblazed=yes" icon="" />
+		 <button type="tag" label="vis=good (path/marker visible when searched T2)" icon="" />
 	</row>
 
 	<row>
-		 <button type="tag" label="visibility=bad (Path/markers sometimes invisible T3)" icon="" />
-		 <button type="tag" label="visibility=no (Mostly pathless/no markers T4+)" icon="" />
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="trailblazed=cairnes" icon="" />
+		 <button type="tag" label="vis=bad (Path/markers sometimes invisible T3)" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="traileblazed=yes" icon="" />
-		 <button type="tag" label="trailbazed=cairnes" icon="" />
 		 <button type="tag" label="trailblazed=poles" icon="" />
-		 <button type="tag" label="trailblazed=symbols" icon="" />
+		 <button type="tag" label="vis=no (Mostly pathless/no markers T4+)" icon="" />
+	 </row>
+</layout>
+
+<layout name="Difficulty">
+	<!-- Row 1: (Home), smoothness=excellent (0-0.2in), smoothness=good (0.2-0.5in), smoothness=intermediate (0.5-1in) 	--> 
+	<!-- Row 2: smoothness=bad(1-3in T1), smoothness=very_bad (3-6in T2), smoothness=horrible (6-10in T2), smoothness=very horrible (10-20in T3), smoothness=impassable (over 20in T4+)	-->  
+	<!-- Row 3: steepness:Gentle (0-40% T1), steepness:short steep (40-70% T2), steepness:steep (70-100% T3), steepness:extremely steep (ov 100% T4)  	-->
+	<!-- Row 4: fall:limited (T2), fall:significant injury (T3), hands:required to maintain balance (T3), hands:required to advance (T4) 	-->
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="tag" label="smoothness=excellent (0-0.2in)" icon="" />
+		 <button type="tag" label="smoothness=good (0.2-0.5in)" icon="" />
+		 <button type="tag" label="smoothness=inter (0.5-1in)" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="smoothness=bad(1-3in T1)" icon="" />
+		 <button type="tag" label="very_bad (3-6in T2)" icon="" />
+		 <button type="tag" label="smoothness=horrible (6-10in T2)" icon="" />
+		 <button type="tag" label="smoothness=very horrible (10-20in T3)" icon="" />
+	</row>
+
+	<row>
+		 <button type="tag" label="steepness:Gentle (0-40% T1)" icon="" />
+		 <button type="tag" label="steepness:short steep (40-70% T2)" icon="" />
+		 <button type="tag" label="steepness:steep (70-100% T3)" icon="" />
+		 <button type="tag" label="steepness:extremely steep (ov 100% T4)" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="fall:limited (T2)" icon="" />
+		 <button type="tag" label="fall:significant injury (T3)" icon="" />
+		 <button type="tag" label="hands:required to maintain balance (T3)" icon="" />
+		 <button type="tag" label="hands:required to advance (T4)" icon="" />
 	 </row>
 </layout>
 
