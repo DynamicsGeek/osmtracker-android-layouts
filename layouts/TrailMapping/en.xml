@@ -37,13 +37,13 @@
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
 		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
 		 <button type="tag" label="wid=0.15m (6in)" icon="TrailMapping_icons/width-narrow.png" />
-		 <button type="tag" label="wid=0.30m (12in)" icon="TrailMapping_icons/width-narrow.png" />
+		 <button type="tag" label="wid=0.30m (12in)" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="wid=0.5m (20in)" icon="TrailMapping_icons/width-narrow.png" />
-		 <button type="tag" label="wid=1.0m (3ft)" icon="TrailMapping_icons/width.png" />
+		 <button type="tag" label="wid=0.5m (20in)" icon="" />
+		 <button type="tag" label="wid=1.0m (3ft)" icon="" />
 		 <button type="tag" label="wid=2.0m (7ft)" icon="TrailMapping_icons/width.png" />
-		 <button type="tag" label="wid=4.0m (13ft)" icon="TrailMapping_icons/width.png" />
+		 <button type="tag" label="wid=4.0m (13ft)" icon="" />
 	</row>
 
 	<row>
@@ -59,6 +59,40 @@
 		 <button type="tag" label="sur=metal" icon="" />
 	 </row>
 </layout>
+
+
+<layout name="RouteMarking">
+	<!-- Row 1: (Home) (Visibility) (Access) (Ammenities)	-->
+	<!-- Row 2: osmc:symbol=black⬛,  osmc:symbol=gray, osmc:symbol=white⬜,	--> 
+	<!-- Row 3: osmc:symbol=red🟥, symbol=green🟩, osmc:symbol=blue🟦  	-->
+	<!-- Row 4: osmc:symbol=yellow🟨, osmc:symbol=orange🟧, osmc:symbol=purple🟪, osmc:symbol=brown🟫			-->
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="Visibility" icon="" targetlayout="Visibility" />
+		 <button type="page" label="Access" icon="" targetlayout="Access" />
+
+		 <button type="page" label="Ammenities" icon="" targetlayout="Ammenities" />
+	</row>
+	<row>
+		 <button type="tag" label="osmc:symbol=black⬛" icon="" />
+		 <button type="tag" label="osmc:symbol=gray" icon="" />
+		 <button type="tag" label="osmc:symbol=white⬜" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="osmc:symbol=red🟥" icon="" />
+		 <button type="tag" label="symbol=green🟩" icon="" />
+		 <button type="tag" label="osmc:symbol=blue🟦" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="osmc:symbol=yellow🟨" icon="" />
+		 <button type="tag" label="osmc:symbol=orange🟧" icon="" />
+		 <button type="tag" label="osmc:symbol=purple🟪" icon="" />
+		 <button type="tag" label="osmc:symbol=brown🟫" icon="" />
+	 </row>
+</layout>
+ 
 
 
 </layouts>
