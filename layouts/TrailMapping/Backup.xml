@@ -1,4 +1,37 @@
 
+<layout name="Overnight">
+	<!-- Row 1: (home) (Amenities) (PathStructures)	-->
+	<!-- Row 2: tourism=camp_pitch, informal=yes; leisure=firepit; ??=bearbox  	-->
+	<!-- Row 3: shelter_type=lean_to, shelter_type=basic_hut, shelter_type=wilderness_hut , sheter_type=alpine_hut, 	-->
+	<!-- Row 4: capacity=1, capacity=2, capacity=4, capacity=8	--> 
+
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="Amenities" icon="" targetlayout="Amenities" />
+		 <button type="page" label="PathStructures" icon="" targetlayout="PathStructures" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="capacity=1" icon="" />
+		 <button type="tag" label="capacity=2" icon="" />
+		 <button type="tag" label="capacity=4" icon="" />
+		 <button type="tag" label="capacity=8" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="tourism= camp_pitch" icon="" />
+		 <button type="tag" label="informal= yes" icon="" />
+		 <button type="tag" label="leisure= firepit" icon="" />
+		 <button type="tag" label="  =bearbox" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="shelter_type= lean_to" icon="" />
+		 <button type="tag" label="shelter_type= basic_hut" icon="" />
+		 <button type="tag" label="shelter_type= wilderness_hut" icon="" />
+		 <button type="tag" label="sheter_type= alpine_hut" icon="" />
+	 </row>
+</layout>
+
+
 <layout name="NaturalFeatures"> 
 	<!-- Row 1: (Home) (Difficulty) (Amenities) (PathStructures)		-->
 	<!-- Row 2: waterway=stream, natural=spring; water=pond; waterway=waterfall 	-->
