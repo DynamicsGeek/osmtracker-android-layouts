@@ -229,7 +229,7 @@
 	</row>
 	<row>
 		 <button type="tag" label="information=route_marker (direction only)" icon="" />
-		 <button type="tag" label="information=guidepost (destination/distance)" icon="" />
+		 <button type="tag" label="information=guidepost (destination distance)" icon="" />
 		 <button type="tag" label="information=map" icon="" />
 		 <button type="tag" label="" icon="" />
 	</row>
@@ -266,7 +266,6 @@
 		 <button type="tag" label="capacity=4" icon="" />
 		 <button type="tag" label="capacity=8" icon="" />
 	</row>
-
 	<row>
 		 <button type="tag" label="tourism= camp_pitch" icon="" />
 		 <button type="tag" label="informal= yes" icon="" />
