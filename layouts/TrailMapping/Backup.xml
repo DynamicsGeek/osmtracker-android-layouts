@@ -1,37 +1,6 @@
 
 
 
-<layout name="Ratings">
-	<!-- Row 1: (Home) (Difficulty)  SAC=hiking (T1), SAC=mountain hiking (T2),  	-->
-	<!-- Row 2: SAC=demanding_mountain_hiking (T3), SAC=alpine_hiking (T4), SAC=demanding_alpine_hiking (T5), SAC=difficult_alpine_hiking (T6) 	-->
-	<!-- Row 3: MTB:scale=0 (white), MTB:scale=1 (green/easy), MTB:scale=2 (blue/moderate) MTB:scale=3 (blue-black/difficult)	-->
-	<!-- Row 4: MTB:scale=4 (black/very difficult)  MTB:scale=5 (double black/extreme)  MTB:scale=6 (orange/expert) (Access)	-->
-	<row>
-		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
-		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
-		 <button type="tag" label="SAC=hiking (T1)" icon="" />
-		 <button type="tag" label="SAC=mountain hiking (T2)" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="SAC=demanding_mountain_hiking (T3)" icon="" />
-		 <button type="tag" label="SAC=alpine_hiking (T4)" icon="" />
-		 <button type="tag" label="SAC=demanding_alpine_hiking (T5)" icon="" />
-		 <button type="tag" label="SAC=difficult_alpine_hiking (T6)" icon="" />
-	</row>
-
-	<row>
-		 <button type="tag" label="MTB:scale=0 (white)" icon="" />
-		 <button type="tag" label="MTB:scale=1 (green/easy)" icon="" />
-		 <button type="tag" label="MTB:scale=2 (blue/moderate)" icon="" />
-		 <button type="tag" label="MTB:scale=3 (blue-black/difficult)" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="MTB:scale=4 (black/very difficult)" icon="" />
-		 <button type="tag" label="MTB:scale=5 (double black/extreme)" icon="" />
-		 <button type="tag" label="MTB:scale=6 (orange/expert)" icon="" />
-		 <button type="page" label="Access" icon="" targetlayout="Access" />
-	 </row>
-</layout>
 
 <layout name="PathStructures">
 	<!-- Row 1: (Home), (WidthSurface), highway=steps, handrail=yes, 	-->
