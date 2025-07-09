@@ -1,2 +1,125 @@
 
 
+<layout name="Amenities">
+	<!-- Row 1: (Home) (RouteMarking) (PathStructures)
+	<!-- Row 2: information=route_marker (direction only), information=guidepost (destination/distance), information=map	-->
+	<!-- Row 3: amenity=parking, amenity=toilets, leisure=picnic_table, amenity=drinking_water	-->
+	<!-- Row 4: amenity=bench backrest=yes; amentity=charcoalgrill; shelter_type=sun_shelter 	-->
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="RouteMarking" icon="" targetlayout="RouteMarking" />
+		 <button type="page" label="PathStructures" icon="" targetlayout="PathStructures" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="information=route_marker (direction only)" icon="" />
+		 <button type="tag" label="information=guidepost (destination/distance)" icon="" />
+		 <button type="tag" label="information=map" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+
+	<row>
+		 <button type="tag" label="amenity=parking" icon="" />
+		 <button type="tag" label="amenity=toilets" icon="" />
+		 <button type="tag" label="leisure=picnic_table" icon="" />
+		 <button type="tag" label="menity=drinking_water" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="amenity=bench" icon="" />
+		 <button type="tag" label="backrest=yes" icon="" />
+		 <button type="tag" label="amentity=grill" icon="" />
+		 <button type="tag" label="shelter_type=sun_shelter" icon="" />
+	 </row>
+</layout>
+
+<layout name="Overnight">
+	<!-- Row 1: (home) (Amenities) (PathStructures)	-->
+	<!-- Row 2: tourism=camp_pitch, informal=yes; leisure=firepit; ??=bearbox  	-->
+	<!-- Row 3: shelter_type=lean_to, shelter_type=basic_hut, shelter_type=wilderness_hut , sheter_type=alpine_hut, 	-->
+	<!-- Row 4: capacity=1, capacity=2, capacity=4, capacity=8	--> 
+
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="Amenities" icon="" targetlayout="Amenities" />
+		 <button type="page" label="PathStructures" icon="" targetlayout="PathStructures" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="capacity=1" icon="" />
+		 <button type="tag" label="capacity=2" icon="" />
+		 <button type="tag" label="capacity=4" icon="" />
+		 <button type="tag" label="capacity=8" icon="" />
+	</row>
+
+	<row>
+		 <button type="tag" label="tourism=camp_pitch" icon="" />
+		 <button type="tag" label="informal=yes" icon="" />
+		 <button type="tag" label="leisure=firepit" icon="" />
+		 <button type="tag" label="??=bearbox" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="shelter_type=lean_to" icon="" />
+		 <button type="tag" label="shelter_type=basic_hut" icon="" />
+		 <button type="tag" label="shelter_type=wilderness_hut" icon="" />
+		 <button type="tag" label="sheter_type=alpine_hut" icon="" />
+	 </row>
+</layout>
+
+<layout name="NaturalFeatures"> 
+	<!-- Row 1: (Home) (Difficulty) (Amenities) (PathStructures)		-->
+	<!-- Row 2: waterway=stream, natural=spring; water=pond; waterway=waterfall 	-->
+	<!-- Row 3: natural=cliff, tourism=viewpoint	-->
+	<!-- Row 4: View N, View S, View E, View W)			-->
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
+		 <button type="page" label="Amenities" icon="" targetlayout="Amenities" />
+		 <button type="page" label="PathStructures" icon="" targetlayout="PathStructures" />
+	</row>
+	<row>
+		 <button type="tag" label="waterway=stream" icon="" />
+		 <button type="tag" label="natural=spring" icon="" />
+		 <button type="tag" label="water=pond" icon="" />
+		 <button type="tag" label="waterway=waterfall" icon="" />
+	</row>
+
+	<row>
+		 <button type="tag" label="natural=cliff" icon="" />
+		 <button type="tag" label="tourism=viewpoint" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	 </row>
+</layout>
+
+<layout name="_">
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	 </row>
+</layout>
