@@ -329,8 +329,8 @@
 		 <button type="tag" label="" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="information=route_marker (direction only)" icon="" />
-		 <button type="tag" label="information=guidepost (destination/distance)" icon="" />
+		 <button type="tag" label="information=route_marker direction only" icon="" />
+		 <button type="tag" label="information=guidepost destination distance" icon="" />
 		 <button type="tag" label="information=map" icon="" />
 		 <button type="tag" label="" icon="" />
 	</row>
