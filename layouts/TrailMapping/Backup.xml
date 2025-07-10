@@ -6,7 +6,7 @@
 
 
 <layout name="Amenities">
-	<!-- Row 1: (Home) (RouteMarking) (PathStructures)
+	<!-- Row 1: (Home) (RouteMarking) (PathStructures) -->
 	<!-- Row 2: information=route_marker (direction only), information=guidepost (destination distance), information=map	-->
 	<!-- Row 3: amenity=parking, amenity=toilets, leisure=picnic_table, amenity=drinking_water	-->
 	<!-- Row 4: amenity=bench backrest=yes; amentity=charcoalgrill; shelter_type=sun_shelter 	-->

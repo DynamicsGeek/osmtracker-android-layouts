@@ -284,40 +284,43 @@
 
 
 <layout name="Access">
+	<!-- Row 1 : (home) informal=yes, access=no; access=private	-->
 	<!-- Row 1 : foot+bike+horse=des, foot+bike=des, foot=des; Seg=yes	-->
 	<!-- Row 2 : horse=no; bike=no; dog=no; dog=leashed	-->
-	<!-- Row 3 : wheelchair=des; ski=des; snowmobile=des	-->
-	<!-- Row 4 : informal=yes, access=no; access=private; motor=yes	-->
+	<!-- Row 3 : wheelchair=des; ski=des; snowmobile=des; ; motor=yes	-->
 
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
-		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="informal=yes" icon="" />
+		 <button type="tag" label="access=no" icon="" />
+		 <button type="tag" label="access=private" icon="" />
 	 </row>
+	<row>
+		 <button type="tag" label="foot+horse+bike=des" icon="" />
+		 <button type="tag" label="foot+bike=des" icon="" />
+		 <button type="tag" label="foot=des" icon="" />
+		 <button type="tag" label="segregrated=yes" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="horse=no" icon="" />
+		 <button type="tag" label="bike=no" icon="" />
+		 <button type="tag" label="dog=no" icon="" />
+		 <button type="tag" label="dog=leashed" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="wheelchair=des" icon="" />
+		 <button type="tag" label="ski=des" icon="" />
+		 <button type="tag" label="snowmobile=des" icon="" />
+		 <button type="tag" label="motor=yes" icon="" />
+	</row>
 </layout>
 
 
 <layout name="Amenities">
-
+	<!-- Row 1: (Home) (RouteMarking) (PathStructures) -->
+	<!-- Row 2: information=route_marker (direction only), information=guidepost (destination distance), information=map	-->
+	<!-- Row 3: amenity=parking, amenity=toilets, leisure=picnic_table, amenity=drinking_water	-->
+	<!-- Row 4: amenity=bench backrest=yes; amentity=charcoalgrill; shelter_type=sun_shelter 	-->
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
 		 <button type="page" label="RouteMarking" icon="" targetlayout="RouteMarking" />
@@ -325,21 +328,21 @@
 		 <button type="tag" label="" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="information=route_marker (direction only)" icon="" />
+		 <button type="tag" label="information=guidepost (destination distance)" icon="" />
+		 <button type="tag" label="information=map" icon="" />
 		 <button type="tag" label="" icon="" />
 	</row>
 	<row>
 		 <button type="tag" label="amenity=parking" icon="" />
 		 <button type="tag" label="amenity=toilets" icon="" />
 		 <button type="tag" label="leisure=picnic_table" icon="" />
-		 <button type="tag" label="amenity=drinking_water" icon="" />
+		 <button type="tag" label="menity=drinking_water" icon="" />
 	</row>
 	<row>
 		 <button type="tag" label="amenity=bench" icon="" />
 		 <button type="tag" label="backrest=yes" icon="" />
-		 <button type="tag" label="amentity=charcoalgrill" icon="" />
+		 <button type="tag" label="amentity=grill" icon="" />
 		 <button type="tag" label="shelter_type=sun_shelter" icon="" />
 	 </row>
 </layout>
