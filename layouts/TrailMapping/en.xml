@@ -183,4 +183,37 @@
 
 
 
+<layout name="PathStructures">
+	<!-- Row 1: (Home), (WidthSurface), highway=steps, handrail=yes, 	-->
+	<!-- Row 2: highway=ladder, ford=yes, ford=stepping_stones  	-->
+	<!-- Row 3: bridge=yes, bridge=boardwalk, bridge=trestle, barrier=stile	-->
+	<!-- Row 4: barrier=gate, barrier=kissing_gate, barrier=swing_gate, barrier=chain	-->
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="WidthSurface" icon="" targetlayout="WidthSurface" />
+		 <button type="tag" label="highway=steps" icon="" />
+		 <button type="tag" label="handrail=yes" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="highway= ladder" icon="" />
+		 <button type="tag" label="ford= yes" icon="" />
+		 <button type="tag" label="ford= stepping_stones " icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+
+	<row>
+		 <button type="tag" label="bridge= yes" icon="" />
+		 <button type="tag" label="bridge= boardwalk" icon="" />
+		 <button type="tag" label="bridge= trestle" icon="" />
+		 <button type="tag" label="barrier= stile" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="barrier= gate" icon="" />
+		 <button type="tag" label="barrier= kissing_gate" icon="" />
+		 <button type="tag" label="barrier= swing_gate" icon="" />
+		 <button type="tag" label="barrier= chain" icon="" />
+	 </row>
+</layout>
+
+
 </layouts>
