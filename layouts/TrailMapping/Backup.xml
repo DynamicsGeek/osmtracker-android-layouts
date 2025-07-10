@@ -18,7 +18,6 @@
 		 <button type="tag" label="information=map" icon="" />
 		 <button type="tag" label="" icon="" />
 	</row>
-
 	<row>
 		 <button type="tag" label="amenity=parking" icon="" />
 		 <button type="tag" label="amenity=toilets" icon="" />
@@ -32,7 +31,6 @@
 		 <button type="tag" label="shelter_type=sun_shelter" icon="" />
 	 </row>
 </layout>
-
 
 <layout name="_">
 	<row>
