@@ -250,5 +250,39 @@
 </layout>
 
 
+<layout name="NaturalFeatures"> 
+	<!-- Row 1: (Home) (Difficulty) (Amenities) (PathStructures)		-->
+	<!-- Row 2: waterway=stream, natural=spring; water=pond; waterway=waterfall 	-->
+	<!-- Row 3: natural=cliff, tourism=viewpoint	-->
+	<!-- Row 4: View N, View S, View E, View W)			-->
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
+		 <button type="page" label="Amenities" icon="" targetlayout="Amenities" />
+		 <button type="page" label="PathStructures" icon="" targetlayout="PathStructures" />
+	</row>
+	<row>
+		 <button type="tag" label="waterway=stream" icon="" />
+		 <button type="tag" label="natural=spring" icon="" />
+		 <button type="tag" label="water=pond" icon="" />
+		 <button type="tag" label="waterway=waterfall" icon="" />
+	</row>
+
+	<row>
+		 <button type="tag" label="natural=cliff" icon="" />
+		 <button type="tag" label="tourism=viewpoint" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	 </row>
+</layout>
+
+
+
 
 </layouts>
