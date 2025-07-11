@@ -1,8 +1,93 @@
-	<!-- Row 1: (Home) (RouteMarking) (PathStructures)
-	<!-- Row 2: information=route_marker (direction only), information=guidepost (destination distance), information=map	-->
-	<!-- Row 3: amenity=parking, amenity=toilets, leisure=picnic_table, amenity=drinking_water	-->
-	<!-- Row 4: amenity=bench backrest=yes; amentity=charcoalgrill; shelter_type=sun_shelter 	-->
 
+<layout name="Ratings">
+	<!-- Row 1: (Home) (Difficulty)  SAC=hiking (T1), SAC=mountain hiking (T2),  	-->
+	<!-- Row 2: SAC=demanding_mountain_hiking (T3), SAC=alpine_hiking (T4), SAC=demanding_alpine_hiking (T5), SAC=difficult_alpine_hiking (T6) 	-->
+	<!-- Row 3: MTB:scale=0 (white), MTB:scale=1 (green/easy), MTB:scale=2 (blue/moderate) MTB:scale=3 (blue-black/difficult)	-->
+	<!-- Row 4: MTB:scale=4 (black/very difficult)  MTB:scale=5 (double black/extreme)  MTB:scale=6 (orange/expert) (Access)	-->
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
+		 <button type="tag" label="SAC=hiking (T1)" icon="" />
+		 <button type="tag" label="SAC=mountain hiking (T2)" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="SAC=demanding_mountain_hiking (T3)" icon="" />
+		 <button type="tag" label="SAC=alpine_hiking (T4)" icon="" />
+		 <button type="tag" label="SAC=demanding_alpine_hiking (T5)" icon="" />
+		 <button type="tag" label="SAC=difficult_alpine_hiking (T6)" icon="" />
+	</row>
+
+	<row>
+		 <button type="tag" label="MTB:scale=0 (white)" icon="" />
+		 <button type="tag" label="MTB:scale=1 (green_easy)" icon="" />
+		 <button type="tag" label="MTB:scale=2 (blue:moderate)" icon="" />
+		 <button type="tag" label="MTB:scale=3 (blue-black:difficult)" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="MTB:scale=4 (black:very difficult)" icon="" />
+		 <button type="tag" label="MTB:scale=5 (double black:extreme)" icon="" />
+		 <button type="tag" label="MTB:scale=6 (orange:expert)" icon="" />
+		 <button type="page" label="Access" icon="" targetlayout="Access" />
+	 </row>
+</layout>
+
+ 
+<layout name="Visibility">
+	<!-- Row 1: (Home), (Dificulty), (WidthSurface), (Marking)	-->
+	<!-- Row 2: visibility=excellent (Clearly visible path/markers T1), visibility=good (Path/marker visible when searched T2)	-->
+	<!-- Row 3: visibility=bad (Path/markers sometimes invisible T3), visibility=no (Mostly pathless/no markers T4+)	-->
+	<!-- Row 4: trailblazed=yes, trailblazed=cairnes, trailblazed=poles, trailblazed=symbols	-->
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="tag" label="vis=excel (visible path/markers T1)" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="trailblazed=yes" icon="" />
+		 <button type="tag" label="vis=good (path/marker visible when searched T2)" icon="" />
+	</row>
+
+	<row>
+		 <button type="tag" label="trailblazed=cairnes" icon="" />
+		 <button type="tag" label="vis=bad (Path/markers sometimes invisible T3)" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="trailblazed=poles" icon="" />
+		 <button type="tag" label="vis=no (Mostly pathless/no markers T4+)" icon="" />
+	 </row>
+</layout>
+
+
+<layout name="WidthSurface">
+	<!-- Row 1 : (Home) (difficulty) width=0.15 (6in T3), 0.3 (12in T2) -->
+	<!-- Row 2 : width=0.5 (20in T1), 1.0 (3ft), 2.0 (7ft), 4.0 (13ft)-->
+	<!-- Row 3 : Surface = ground, concrete, steppping_stones, stone, -->
+	<!-- Row 4 : Surface = fine_gravel,gravel,wood,metal -->
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
+		 <button type="tag" label="wid=0.15m (6in)" icon="" />
+		 <button type="tag" label="wid=0.30m (12in)" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="wid=0.5m (20in)" icon="" />
+		 <button type="tag" label="wid=1.0m (3ft)" icon="" />
+		 <button type="tag" label="wid=2.0m (7ft)" icon="" />
+		 <button type="tag" label="wid=4.0m (13ft)" icon="" />
+	</row>
+
+	<row>
+		 <button type="tag" label="sur=ground" icon="TrailMapping_icons/earth.png" />
+		 <button type="tag" label="sur=concrete" icon="TrailMapping_icons/concrete.png" />
+		 <button type="tag" label="sur=stepping_stones" icon="TrailMapping_icons/stepping-stones.png" />
+		 <button type="tag" label="sur=stone" icon="TrailMapping_icons/concrete.png" />
+	</row>
+	<row>
+		 <button type="tag" label="sur=fine_gravel" icon="TrailMapping_icons/gravel.png" />
+		 <button type="tag" label="sur=gravel" icon="TrailMapping_icons/gravel.png" />
+		 <button type="tag" label="sur=wood" icon="TrailMapping_icons/brown-layers.png" />
+		 <button type="tag" label="sur=metal" icon="" />
+	 </row>
+</layout>
 
 
 <layout name="Difficulty">
