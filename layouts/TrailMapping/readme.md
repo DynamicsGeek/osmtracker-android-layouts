@@ -78,4 +78,5 @@ Photo or Voice of Text Fields (Name, Operator)
 	<!-- Row 4: View N, View S, View E, View W)			-->
 
 
-
+Research icons to align with OSM rendering of features (Potlatch?)
+Research which tags are most commonly associated with highway=path  https://taginfo.openstreetmap.org/tags/highway=path#combinations
