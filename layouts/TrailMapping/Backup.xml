@@ -1,4 +1,39 @@
 
+
+
+<layout name="RouteMarking">
+	<!-- Row 1: (Home) (Visibility) (Access) (Ammenities)	-->
+	<!-- Row 2: osmc:symbol=black⬛,  osmc:symbol=gray, osmc:symbol=white⬜,	--> 
+	<!-- Row 3: osmc:symbol=red🟥, osmc:symbol=green🟩, osmc:symbol=blue🟦  	-->
+	<!-- Row 4: osmc:symbol=yellow🟨, osmc:symbol=orange🟧, osmc:symbol=purple🟪, osmc:symbol=brown🟫			-->
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="Access" icon="" targetlayout="Access" />
+		 <button type="page" label="Amenities" icon="" targetlayout="Ammenities" />
+		 <button type="page" label="Ratings" icon="" targetlayout="Ratings" />
+	</row>
+	<row>
+		 <button type="tag" label="osmc:symbol= black⬛" icon="" />
+		 <button type="tag" label="osmc:symbol= gray" icon="" />
+		 <button type="tag" label="osmc:symbol= white⬜" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="osmc:symbol= red🟥" icon="" />
+		 <button type="tag" label="osmc:symbol= green🟩" icon="" />
+		 <button type="tag" label="osmc:symbol= blue🟦" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="osmc:symbol= yellow🟨" icon="" />
+		 <button type="tag" label="osmc:symbol= orange🟧" icon="" />
+		 <button type="tag" label="osmc:symbol= purple🟪" icon="" />
+		 <button type="tag" label="osmc:symbol= brown🟫" icon="" />
+	 </row>
+</layout>
+ 
+
+
 <layout name="Ratings">
 	<!-- Row 1: (Home) (Difficulty)  SAC=hiking (T1), SAC=mountain hiking (T2),  	-->
 	<!-- Row 2: SAC=demanding_mountain_hiking (T3), SAC=alpine_hiking (T4), SAC=demanding_alpine_hiking (T5), SAC=difficult_alpine_hiking (T6) 	-->
