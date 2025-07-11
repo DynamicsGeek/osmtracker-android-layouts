@@ -4,6 +4,17 @@
 
 	<!-- Applicable to segments of the trail: Visibility, Width, Surface, Difficulty, Path Structures -->
 	<!-- Applicable to features near related to the trail: Amenities, Natural Features, Overnight -->
+	<row>
+		<button type="page" label="Visibility" icon="" targetlayout="Visibility" />
+		<button type="page" label="Width & Surface" icon="" targetlayout="WidthSurface" />
+		<button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
+		<button type="page" label="Path Structures" icon="" targetlayout="PathStructures" />
+	</row>  
+	<row>
+		<button type="page" label="Amenities" icon="" targetlayout="Amenities" />
+		<button type="page" label="Natural Features" icon="" targetlayout="NaturalFeatures" />
+		<button type="page" label="Overnight" icon="" targetlayout="Overnight" />
+	</row>
 
 
 <layout name="Access">
