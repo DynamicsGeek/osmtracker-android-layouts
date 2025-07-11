@@ -14,7 +14,7 @@
 	</row>
 	<row>
 		<button type="page" label="Visibility" icon="" targetlayout="Visibility" />
-		<button type="page" label="Width & Surface" icon="" targetlayout="WidthSurface" />
+		<button type="page" label="Width Surface" icon="" targetlayout="WidthSurface" />
 		<button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
 		<button type="page" label="Path Structures" icon="" targetlayout="PathStructures" />
 	</row>  
