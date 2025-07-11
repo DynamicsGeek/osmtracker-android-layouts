@@ -8,7 +8,7 @@
 		<button type="textnote" label="Text note" icon="text.png" />
 	</row>
 	<row>
-	<!-- Applicable to entire trail: Access, Route Marking, Ratings-->
+	<!-- Applicable to entire trail: Access, Route Marking, Ratings -->
 		<button type="page" label="Access" icon="" targetlayout="Access" />
 		<button type="page" label="Route Marking" icon="" targetlayout="RouteMarking" />
 		<button type="page" label="Ratings" icon="" targetlayout="Ratings" />
@@ -21,7 +21,7 @@
 		<button type="page" label="Path Structures" icon="" targetlayout="PathStructures" />
 	</row>  
 	<row>
-	<!-- Applicable to features near/related to the trail: Amenities, Natural Features, Overnight -->
+	<!-- Applicable to features near related to the trail: Amenities, Natural Features, Overnight -->
 		<button type="page" label="Amenities" icon="" targetlayout="Amenities" />
 		<button type="page" label="Natural Features" icon="" targetlayout="NaturalFeatures" />
 		<button type="page" label="Overnight" icon="" targetlayout="Overnight" />
@@ -40,7 +40,7 @@
 		 <button type="tag" label="informal=yes" icon="" />
 		 <button type="tag" label="access=no" icon="" />
 		 <button type="tag" label="access=private" icon="" />
-	 </row>
+	</row>
 	<row>
 		 <button type="tag" label="foot+horse+bike=des" icon="" />
 		 <button type="tag" label="foot+bike=des" icon="" />
