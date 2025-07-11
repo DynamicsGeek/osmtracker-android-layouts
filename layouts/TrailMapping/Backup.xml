@@ -1,5 +1,38 @@
 
 
+<layout name="Access">
+	<!-- Row 1 : (home) informal=yes, access=no; access=private	-->
+	<!-- Row 1 : foot+bike+horse=des, foot+bike=des, foot=des; Seg=yes	-->
+	<!-- Row 2 : horse=no; bike=no; dog=no; dog=leashed	-->
+	<!-- Row 3 : wheelchair=des; ski=des; snowmobile=des; ; motor=yes	-->
+
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="tag" label="informal=yes" icon="" />
+		 <button type="tag" label="access=no" icon="" />
+		 <button type="tag" label="access=private" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="foot+horse+bike=des" icon="" />
+		 <button type="tag" label="foot+bike=des" icon="" />
+		 <button type="tag" label="foot=des" icon="" />
+		 <button type="tag" label="segregrated=yes" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="horse=no" icon="" />
+		 <button type="tag" label="bike=no" icon="" />
+		 <button type="tag" label="dog=no" icon="" />
+		 <button type="tag" label="dog=leashed" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="wheelchair=des" icon="" />
+		 <button type="tag" label="snowmobile=des" icon="" />
+		 <button type="tag" label="ski=des" icon="" />
+		 <button type="tag" label="motor=yes" icon="" />
+	</row>
+</layout>
+
+
 
 <layout name="RouteMarking">
 	<!-- Row 1: (Home) (Visibility) (Access) (Ammenities)	-->
