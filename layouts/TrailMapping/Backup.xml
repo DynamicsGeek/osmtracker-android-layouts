@@ -1,4 +1,10 @@
 
+	<!-- 3 special action buttons -->
+	<!-- Applicable to entire trail: Access, Route Marking, Ratings -->
+
+	<!-- Applicable to segments of the trail: Visibility, Width, Surface, Difficulty, Path Structures -->
+	<!-- Applicable to features near related to the trail: Amenities, Natural Features, Overnight -->
+
 
 <layout name="Access">
 	<!-- Row 1 : (home) informal=yes, access=no; access=private	-->
