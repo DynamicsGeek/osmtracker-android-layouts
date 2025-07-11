@@ -21,6 +21,7 @@
 		<button type="page" label="Visibility" icon="" targetlayout="Visibility" />
 		<button type="page" label="Width Surface" icon="" targetlayout="WidthSurface" />
 		<button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
+		<button type="page" label="Smoothness" icon="" targetlayout="Smoothness" />
 		<button type="page" label="Path Structures" icon="" targetlayout="PathStructures" />
 	</row>  
 
@@ -193,7 +194,7 @@
 </layout>
 
 
-<layout name="Difficulty">
+<layout name="Smoothness">
 	<!-- Row 1: (Home), smoothness=excellent (0-0.2in), smoothness=good (0.2-0.5in), smoothness=intermediate (0.5-1in) 	--> 
 	<!-- Row 2: smoothness=bad(1-3in T1), smoothness=very_bad (3-6in T2), smoothness=horrible (6-10in T2), smoothness=very_horrible (10-20in T3), smoothness=impassable (over 20in T4+)	-->  
 	<!-- Row 3: steepness:Gentle (0-40% T1), steepness:short steep (40-70% T2), steepness:steep (70-100% T3), steepness:extremely steep (ov 100% T4)  	-->
@@ -201,29 +202,47 @@
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
 		 <button type="tag" label="smooth= excellent (0-0.2in)" icon="" />
+	</row>
+	<row>
 		 <button type="tag" label="smooth= good (0.2-0.5in)" icon="" />
 		 <button type="tag" label="smooth= inter (0.5-1in)" icon="" />
 	</row>
 	<row>
 		 <button type="tag" label="smooth= bad(1-3in T1)" icon="" />
 		 <button type="tag" label="smooth= very_bad (3-6in T2)" icon="" />
+	</row>
+	<row>
 		 <button type="tag" label="smooth= horrible (6-10in T2)" icon="" />
 		 <button type="tag" label="smooth= very_horrible (10-20in T3)" icon="" />
 	</row>
 
+	
+</layout>
+
+<layout name="Difficulty">
+	<!-- Row 1: (Home), smoothness=excellent (0-0.2in), smoothness=good (0.2-0.5in), smoothness=intermediate (0.5-1in) 	--> 
+	<!-- Row 2: smoothness=bad(1-3in T1), smoothness=very_bad (3-6in T2), smoothness=horrible (6-10in T2), smoothness=very_horrible (10-20in T3), smoothness=impassable (over 20in T4+)	-->  
+	<!-- Row 3: steepness:Gentle (0-40% T1), steepness:short steep (40-70% T2), steepness:steep (70-100% T3), steepness:extremely steep (ov 100% T4)  	-->
+	<!-- Row 4: fall:limited (T2), fall:significant injury (T3), hands:required to maintain balance (T3), hands:required to advance (T4) 	-->
+	
 	<row>
 		 <button type="tag" label="gentle incline (0-40% T1)" icon="" />
 		 <button type="tag" label="short steep (40-70% T2)" icon="" />
+	</row>
+	<row>
 		 <button type="tag" label="steep (70-100% T3)" icon="" />
 		 <button type="tag" label="extremely steep (ov 100% T4)" icon="" />
 	</row>
 	<row>
 		 <button type="tag" label="fall:limited (T2)" icon="" />
 		 <button type="tag" label="fall:significant injury (T3)" icon="" />
+	</row>
+	<row>
 		 <button type="tag" label="hands:required to maintain balance (T3)" icon="" />
 		 <button type="tag" label="hands:required to advance (T4)" icon="" />
 	 </row>
 </layout>
+
 
 
 <layout name="PathStructures">
