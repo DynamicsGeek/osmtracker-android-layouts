@@ -16,7 +16,7 @@
 		<button type="page" label="Ratings" icon="" targetlayout="Ratings" />
 	</row>
 
-	<!-- Applicable to segments of the trail: Visibility, Width Surface, Difficulty, Path Structures -->
+	<!-- Applicable to segments of the path: Visibility, Width & Surface, Difficulty, Smoothness, Path Structures -->
 	<row>
 		<button type="page" label="Visibility" icon="" targetlayout="Visibility" />
 		<button type="page" label="Width Surface" icon="" targetlayout="WidthSurface" />
@@ -30,7 +30,6 @@
 		<button type="page" label="Amenities" icon="" targetlayout="Amenities" />
 		<button type="page" label="Natural Features" icon="" targetlayout="NaturalFeatures" />
 		<button type="page" label="Overnight" icon="" targetlayout="Overnight" />
-		<button type="page" label="Portrait" icon="" targetlayout="Portrait" />
 	</row>
 
 </layout>
@@ -38,9 +37,9 @@
 
 <layout name="Access">
 	<!-- Row 1 : (home) informal=yes, access=no; access=private	-->
-	<!-- Row 1 : foot+bike+horse=des, foot+bike=des, foot=des; Seg=yes	-->
-	<!-- Row 2 : horse=no; bike=no; dog=no; dog=leashed	-->
-	<!-- Row 3 : wheelchair=des; ski=des; snowmobile=des; ; motor=yes	-->
+	<!-- Row 1 : foot+bike+horse=des, foot+bike=des, foot=des; segregrated=yes	-->
+	<!-- Row 2 : horse=no, bike=no, dog=no, dog=leashed	-->
+	<!-- Row 3 : wheelchair=des, snowmobile=des, ski=des, motor=yes	-->
 
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
@@ -71,7 +70,7 @@
 
 
 <layout name="RouteMarking">
-	<!-- Row 1: (Home) (Visibility) (Access) (Ammenities)	-->
+	<!-- Row 1: (Home) (Access) (Ammenities) (Ratings)	-->
 	<!-- Row 2: osmc:symbol=black⬛,  osmc:symbol=gray, osmc:symbol=white⬜,	--> 
 	<!-- Row 3: osmc:symbol=red🟥, osmc:symbol=green🟩, osmc:symbol=blue🟦  	-->
 	<!-- Row 4: osmc:symbol=yellow🟨, osmc:symbol=orange🟧, osmc:symbol=purple🟪, osmc:symbol=brown🟫			-->
@@ -106,8 +105,8 @@
 <layout name="Ratings">
 	<!-- Row 1: (Home) (Difficulty)  SAC=hiking (T1), SAC=mountain hiking (T2),  	-->
 	<!-- Row 2: SAC=demanding_mountain_hiking (T3), SAC=alpine_hiking (T4), SAC=demanding_alpine_hiking (T5), SAC=difficult_alpine_hiking (T6) 	-->
-	<!-- Row 3: MTB:scale=0 (white), MTB:scale=1 (green/easy), MTB:scale=2 (blue/moderate) MTB:scale=3 (blue-black/difficult)	-->
-	<!-- Row 4: MTB:scale=4 (black/very difficult)  MTB:scale=5 (double black/extreme)  MTB:scale=6 (orange/expert) (Access)	-->
+	<!-- Row 3: MTB:scale=0 (white), MTB:scale=1 (green:easy), MTB:scale=2 (blue:moderate) MTB:scale=3 (blue-black:difficult)	-->
+	<!-- Row 4: MTB:scale=4 (black:very difficult)  MTB:scale=5 (double black:extreme)  MTB:scale=6 (orange:expert) (Access)	-->
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
 		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
@@ -125,10 +124,10 @@
 		 <button type="tag" label="MTB:scale=0 (white)" icon="" />
 		 <button type="tag" label="MTB:scale=1 (green_easy)" icon="" />
 		 <button type="tag" label="MTB:scale=2 (blue:moderate)" icon="" />
-		 <button type="tag" label="MTB:scale=3 (blue-blk:difficult)" icon="" />
+		 <button type="tag" label="MTB:scale=3 (blue-blk:diff)" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="MTB:scale=4 (blk:very difficult)" icon="" />
+		 <button type="tag" label="MTB:scale=4 (blk:very diff)" icon="" />
 		 <button type="tag" label="MTB:scale=5 (dbl blk:extreme)" icon="" />
 		 <button type="tag" label="MTB:scale=6 (orange:expert)" icon="" />
 		 <button type="page" label="Access" icon="" targetlayout="Access" />
@@ -137,10 +136,10 @@
 
  
 <layout name="Visibility">
-	<!-- Row 1: (Home), (Dificulty), (WidthSurface), (Marking)	-->
-	<!-- Row 2: visibility=excellent (Clearly visible path/markers T1), visibility=good (Path/marker visible when searched T2)	-->
-	<!-- Row 3: visibility=bad (Path/markers sometimes invisible T3), visibility=no (Mostly pathless/no markers T4+)	-->
-	<!-- Row 4: trailblazed=yes, trailblazed=cairnes, trailblazed=poles, trailblazed=symbols	-->
+	<!-- Row 1: (Home), visibility=excellent (Clearly visible path/markers T1)	-->
+	<!-- Row 2: trailblazed=yes, visibility=good (Path/marker visible when searched T2)	-->
+	<!-- Row 3: trailblazed=cairnes, visibility=bad (Path/markers sometimes invisible T3), -->
+	<!-- Row 4: trailblazed=poles, visibility=no (Mostly pathless/no markers T4+)	-->
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
 		 <button type="tag" label="vis=excel (visible path/markers T1)" icon="" />
@@ -169,11 +168,11 @@
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
 		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
-		 <button type="tag" label="wid=0.15m (6in)" icon="" />
-		 <button type="tag" label="wid=0.30m (12in)" icon="" />
+		 <button type="tag" label="wid=0.15m (6in T3)" icon="" />
+		 <button type="tag" label="wid=0.30m (12in T2)" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="wid=0.5m (20in)" icon="" />
+		 <button type="tag" label="wid=0.5m (20in T1)" icon="" />
 		 <button type="tag" label="wid=1.0m (3ft)" icon="" />
 		 <button type="tag" label="wid=2.0m (7ft)" icon="" />
 		 <button type="tag" label="wid=4.0m (13ft)" icon="" />
@@ -195,10 +194,11 @@
 
 
 <layout name="Smooth">
-	<!-- Row 1: (Home), smoothness=excellent (0-0.2in), smoothness=good (0.2-0.5in), smoothness=intermediate (0.5-1in) 	--> 
-	<!-- Row 2: smoothness=bad(1-3in T1), smoothness=very_bad (3-6in T2), smoothness=horrible (6-10in T2), smoothness=very_horrible (10-20in T3), smoothness=impassable (over 20in T4+)	-->  
-	<!-- Row 3: steepness:Gentle (0-40% T1), steepness:short steep (40-70% T2), steepness:steep (70-100% T3), steepness:extremely steep (ov 100% T4)  	-->
-	<!-- Row 4: fall:limited (T2), fall:significant injury (T3), hands:required to maintain balance (T3), hands:required to advance (T4) 	-->
+	<!-- Row 1: (Home), smoothness=excellent (0-0.2in), -->
+	<!-- Row 2: smoothness=good (0.2-0.5in), smoothness=intermediate (0.5-1in) 	--> 
+	<!-- Row 3: smoothness=bad(1-3in T1), smoothness=very_bad (3-6in T2), -->
+	<!-- Row 4: smoothness=horrible (6-10in T2), smoothness=very_horrible (10-20in T3), -->
+	<!-- Row 5: smoothness=impassable (over 20in T4+)	-->  
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
 		 <button type="tag" label="smooth= excellent (0-0.2in)" icon="" />
@@ -215,15 +215,19 @@
 		 <button type="tag" label="smooth= horrible (6-10in T2)" icon="" />
 		 <button type="tag" label="smooth= very_horrible (10-20in T3)" icon="" />
 	</row>
+	<row>
+		 <button type="tag" label="smooth=impassable (over 20in T4+)" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
 
 	
 </layout>
 
 <layout name="Difficulty">
-	<!-- Row 1: (Home), smoothness=excellent (0-0.2in), smoothness=good (0.2-0.5in), smoothness=intermediate (0.5-1in) 	--> 
-	<!-- Row 2: smoothness=bad(1-3in T1), smoothness=very_bad (3-6in T2), smoothness=horrible (6-10in T2), smoothness=very_horrible (10-20in T3), smoothness=impassable (over 20in T4+)	-->  
-	<!-- Row 3: steepness:Gentle (0-40% T1), steepness:short steep (40-70% T2), steepness:steep (70-100% T3), steepness:extremely steep (ov 100% T4)  	-->
-	<!-- Row 4: fall:limited (T2), fall:significant injury (T3), hands:required to maintain balance (T3), hands:required to advance (T4) 	-->
+	<!-- Row 3: gentle incline (0-40% T1), short steep (40-70% T2) -->
+	<!-- steep (70-100% T3), extremely steep (ov 100% T4)  	-->
+	<!-- Row 4: fall:limited (T2), fall:significant injury (T3) -->
+	<!-- hands:required to maintain balance (T3), hands:required to advance (T4) 	-->
 	
 	<row>
 		 <button type="tag" label="gentle incline (0-40% T1)" icon="" />
@@ -247,7 +251,7 @@
 
 <layout name="PathStructures">
 	<!-- Row 1: (Home), (WidthSurface), highway=steps, handrail=yes, 	-->
-	<!-- Row 2: highway=ladder, ford=yes, ford=stepping_stones  	-->
+	<!-- Row 2: highway=trailhead, highway=ladder, ford=stepping_stones, ford=yes,   	-->
 	<!-- Row 3: bridge=yes, bridge=boardwalk, bridge=trestle, barrier=stile	-->
 	<!-- Row 4: barrier=gate, barrier=kissing_gate, barrier=swing_gate, barrier=chain	-->
 	<row>
@@ -278,10 +282,10 @@
 </layout>
 
 <layout name="Amenities">
-	<!-- Row 1: (Home) (RouteMarking) (PathStructures) -->
-	<!-- Row 2: information=route_marker (direction only), information=guidepost (destination distance), information=map, highway=trailhead	-->
-	<!-- Row 3: amenity=parking, amenity=toilets, leisure=picnic_table, amenity=drinking_water	-->
-	<!-- Row 4: amenity=bench backrest=yes; amentity=charcoalgrill; shelter_type=sun_shelter 	-->
+	<!-- Row 1: (Home) (RouteMarking) (PathStructures), amenity=bbq -->
+	<!-- Row 2: shelter_type=sun_shelter, information=route_marker (direction only), information=guidepost (destination distance), information=map	-->
+	<!-- Row 3: leisure=picnic_table, amenity=toilets, amenity=parking, -->
+	<!-- Row 4: amenity=drinking_water, amenity=bench, backrest=yes, -->
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
 		 <button type="page" label="RouteMarking" icon="" targetlayout="RouteMarking" />
@@ -311,7 +315,7 @@
 
 <layout name="Overnight">
 	<!-- Row 1: (home) (Amenities) (PathStructures)	-->
-	<!-- Row 2: tourism=camp_pitch, informal=yes; leisure=firepit; ??=bearbox  	-->
+	<!-- Row 2: tourism=camp_pitch, informal=yes, leisure=firepit, amenity=bear_box  	-->
 	<!-- Row 3: shelter_type=lean_to, shelter_type=basic_hut, shelter_type=wilderness_hut , sheter_type=alpine_hut, 	-->
 	<!-- Row 4: capacity=1, capacity=2, capacity=4, capacity=8	--> 
 
@@ -325,7 +329,7 @@
 		 <button type="tag" label="tourism= camp_pitch" icon="" />
 		 <button type="tag" label="informal= yes" icon="" />
 		 <button type="tag" label="leisure= firepit" icon="" />
-		 <button type="tag" label="  =bearbox" icon="" />
+		 <button type="tag" label="amenity=bear_box" icon="" />
 	</row>
 	<row>
 		 <button type="tag" label="shelter_type= lean_to" icon="" />
@@ -346,7 +350,7 @@
 	<!-- Row 1: (Home) (Difficulty) (Amenities) (PathStructures)		-->
 	<!-- Row 2: waterway=stream, natural=spring; water=pond; waterway=waterfall 	-->
 	<!-- Row 3: natural=cliff, tourism=viewpoint	-->
-	<!-- Row 4: View N, View S, View E, View W)			-->
+	<!-- Row 4: direction= N, direction= N, direction= N, direction= N)			-->
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
 		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
@@ -367,53 +371,12 @@
 		 <button type="tag" label="" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
-		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="direction= N" icon="" />
+		 <button type="tag" label="direction= E" icon="" />
+		 <button type="tag" label="direction= S" icon="" />
+		 <button type="tag" label="direction= W" icon="" />
 	 </row>
 </layout>
-
-<layout name="Portrait">
-	<!-- Row 1: (Home), smoothness=excellent (0-0.2in), smoothness=good (0.2-0.5in), smoothness=intermediate (0.5-1in) 	--> 
-	<!-- Row 2: smoothness=bad(1-3in T1), smoothness=very_bad (3-6in T2), smoothness=horrible (6-10in T2), smoothness=very_horrible (10-20in T3), smoothness=impassable (over 20in T4+)	-->  
-	<!-- Row 3: steepness:Gentle (0-40% T1), steepness:short steep (40-70% T2), steepness:steep (70-100% T3), steepness:extremely steep (ov 100% T4)  	-->
-	<!-- Row 4: fall:limited (T2), fall:significant injury (T3), hands:required to maintain balance (T3), hands:required to advance (T4) 	-->
-	<row>
-		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
-		 <button type="tag" label="smooth= excellent (0-0.2in)" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="smooth= good (0.2-0.5in)" icon="" />
-		 <button type="tag" label="smooth= inter (0.5-1in)" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="smooth= bad(1-3in T1)" icon="" />
-		 <button type="tag" label="smooth= very_bad (3-6in T2)" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="smooth= horrible (6-10in T2)" icon="" />
-		 <button type="tag" label="smooth= very_horrible (10-20in T3)" icon="" />
-	</row>
-
-	<row>
-		 <button type="tag" label="gentle incline (0-40% T1)" icon="" />
-		 <button type="tag" label="short steep (40-70% T2)" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="steep (70-100% T3)" icon="" />
-		 <button type="tag" label="extremely steep (ov 100% T4)" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="fall:limited (T2)" icon="" />
-		 <button type="tag" label="fall:significant injury (T3)" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="hands:required to maintain balance (T3)" icon="" />
-		 <button type="tag" label="hands:required to advance (T4)" icon="" />
-	 </row>
-</layout>
-
 
 
 

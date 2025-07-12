@@ -1,17 +1,17 @@
 
 <metadata>
     <option iso="en" name="English"> 
-		TrailMapping v0.91
+		TrailMapping v1.00
 		
-		This layout is intended to survey information to support tagging paths (a.k.a Trails in the US), specifically for hiking, but also for mountain biking and horseback riding.
-		https://wiki.openstreetmap.org/wiki/Hiking
-		https://wiki.openstreetmap.org/wiki/Tag:highway=path
-		https://wiki.openstreetmap.org/wiki/United_States/Trails_Stewardship_Initiative
-		opentrailsmap
+	This layout is intended to survey information to support tagging paths (a.k.a Trails in the US), specifically for hiking, but also for mountain biking and horseback riding.
+	https://wiki.openstreetmap.org/wiki/Hiking
+	https://wiki.openstreetmap.org/wiki/Tag:highway=path
+	https://wiki.openstreetmap.org/wiki/United_States/Trails_Stewardship_Initiative
+	opentrailsmap
 
-		This layout draws from the original and work by rkdarst
-		This layout views best in landscape mode, and anternatives is designed for portrait mode
-		Tags support the identification of SAC scale with suggestions based on width, visibility, smoothness, steepness, hand use, and fall risk based on definitions of SAC Scale
+	This layout draws from the original (Walk Ride Detailed) and work by rkdarst (Hiking) 
+	This layout views best in landscape mode
+	Tags support the identification of SAC scale with suggestions based on width, visibility, smoothness, steepness, hand use, and fall risk based on definitions of SAC Scale
 
 	</option>
     <github username="DynamicsGeek" repo="osmtracker-android-layouts" branch="master" />
