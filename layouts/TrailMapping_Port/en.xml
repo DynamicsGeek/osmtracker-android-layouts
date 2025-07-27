@@ -142,7 +142,7 @@
 		 <button type="tag" label="T2 SAC= mtn" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="T3 SAC= dem mnt" icon="" />
+		 <button type="tag" label="T3 SAC= dem&#160mnt" icon="" />
 		 <button type="tag" label="T4 SAC= alpine" icon="" />
 	</row>
 	<row>
