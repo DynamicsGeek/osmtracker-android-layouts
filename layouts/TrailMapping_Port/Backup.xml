@@ -1,0 +1,28 @@
+
+
+<layout name="_">
+	<row>
+		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
+		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+		 <button type="tag" label="" icon="" />
+	 </row>
+</layout>
