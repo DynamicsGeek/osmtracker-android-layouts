@@ -251,7 +251,6 @@
 	<!-- Row 5: smoothness=impassable (over 20in T4+)	-->  
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
-		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
 	</row>
 	<row>
 		 <button type="tag" label="smooth= excellent (0-0.2in)" icon="" />
@@ -288,7 +287,6 @@
 	<!-- hands:required to balance (T3), hands:required to advance (T4) 	-->
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
-		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
 	</row>
 	
 	<row>
