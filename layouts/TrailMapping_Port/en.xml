@@ -212,11 +212,11 @@
 		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
 	</row>
 	<row>
-		 <button type="tag" label="wid=0.15m (6in&nbspT3)" icon="" />
-		 <button type="tag" label="wid=0.30m (12in&nbspT2)" icon="" />
+		 <button type="tag" label="wid=0.15m (6in T3)" icon="" />
+		 <button type="tag" label="wid=0.30m (12in T2)" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="wid=0.5m (20in&nbspT1)" icon="" />
+		 <button type="tag" label="wid=0.5m (20in T1)" icon="" />
 		 <button type="tag" label="wid=1.0m (3ft)" icon="" />
 	</row>
 	<row>
