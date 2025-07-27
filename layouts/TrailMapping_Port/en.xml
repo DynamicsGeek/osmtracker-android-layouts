@@ -8,7 +8,7 @@
 		<button type="picture" label="Take picture" icon="camera.png" />
 	</row>
 
-	<!-- Applicable to entire trail: Access, Route Marking, Ratings -->
+	<!-- Applicable to entire trail: Access, Route Color, Ratings -->
 	<row>
 		<button type="textnote" label="Text note" icon="text.png" />
 		<button type="page" label="Ratings" icon="" targetlayout="Ratings" />
@@ -16,7 +16,7 @@
 
 	<row>
 		<button type="page" label="Access" icon="" targetlayout="Access" />
-		<button type="page" label="Route Marking" icon="" targetlayout="RouteMarking" />
+		<button type="page" label="Route Color" icon="" targetlayout="RouteColor" />
 	</row>
 
 	<!-- Applicable to segments of the path: Visibility, Width - Surface, Difficulty, Smoothness, Path Structures -->
@@ -87,7 +87,7 @@
 
 
 
-<layout name="RouteMarking">
+<layout name="RouteColor">
 	<!-- Row 1: (Home) (Access) (Ammenities) (Ratings)	-->
 	<!-- Row 2: osmc:symbol=black⬛,  osmc:symbol=gray, osmc:symbol=white⬜,	--> 
 	<!-- Row 3: osmc:symbol=red🟥, osmc:symbol=green🟩, osmc:symbol=blue🟦  	-->
@@ -98,7 +98,7 @@
 	</row>
 	<row>
 		 <button type="page" label="Amenities" icon="" targetlayout="Ammenities" />
-		 <button type="page" label="Ratings" icon="" targetlayout="Ratings" />
+		 <button type="page" label="Visibility" icon="" targetlayout="Visibility" />
 	</row>
 	<row>
 		 <button type="tag" label="osmc:symbol= black⬛" icon="" />
@@ -142,7 +142,7 @@
 		 <button type="tag" label="T2 SAC= mtn" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="T3 SAC= dem&#160mnt" icon="" />
+		 <button type="tag" label="T3 SAC= dem_mnt" icon="" />
 		 <button type="tag" label="T4 SAC= alpine" icon="" />
 	</row>
 	<row>
@@ -254,9 +254,6 @@
 		 <button type="page" label="Difficulty" icon="" targetlayout="Difficulty" />
 	</row>
 	<row>
-		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
-	</row>
-	<row>
 		 <button type="tag" label="smooth= excellent (0-0.2in)" icon="" />
 	</row>
 	<row>
@@ -340,8 +337,8 @@
 		 <button type="tag"  label="highway= ladder" icon="" />
 	</row>
 	<row>
-		 <button type="tag"  label="ford= stepping_stones " icon="" />
 		 <button type="tag"  label="ford= yes" icon="" />
+		 <button type="tag"  label="ford= stepping_stones " icon="" />
 	</row>
 
 	<row>
@@ -354,38 +351,30 @@
 	</row>
 	<row>
 		 <button type="tag"  label="barrier= gate" icon="" />
-		 <button type="tag"  label="barrier= kissing_gate" icon="" />
+		 <button type="tag"  label="barrier= chain" icon="" />
 	</row>
 	<row>
 		 <button type="tag"  label="barrier= swing_gate" icon="" />
-		 <button type="tag"  label="barrier= chain" icon="" />
+		 <button type="tag"  label="barrier= kissing_gate" icon="" />
 	 </row>
 </layout>
 
 <layout name="Amenities">
-	<!-- Row 1: (Home) (RouteMarking) (PathStructures), amenity=bbq -->
+	<!-- Row 1: (Home) (RouteColor) (PathStructures), amenity=bbq -->
 	<!-- Row 2: shelter_type=sun_shelter, information=route_marker (direction only), information=guidepost (destination distance), information=map	-->
 	<!-- Row 3: leisure=picnic_table, amenity=toilets, amenity=parking, -->
 	<!-- Row 4: amenity=drinking_water, amenity=bench, backrest=yes, -->
 	<row>
 		 <button type="page" label="Home" icon="TrailMapping_icons/house.png" targetlayout="root" />
-		 <button type="page" label="RouteMarking" icon="" targetlayout="RouteMarking" />
+		 <button type="page" label="RouteColor" icon="" targetlayout="RouteColor" />
 	</row>
 	<row>
-		 <button type="page" label="PathStructures" icon="" targetlayout="PathStructures" />
-		 <button type="tag" label="amentity= bbq" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="shelter_type= sun_shelter" icon="" />
-		 <button type="tag" label="info=route_marker (dir only)" icon="" />
-	</row>
-	<row>
-		 <button type="tag" label="info=guidepost (dest, dist)" icon="" />
+		 <button type="page" label="Path Structures" icon="" targetlayout="PathStructures" />
 		 <button type="tag" label="info= map" icon="" />
 	</row>
 	<row>
-		 <button type="tag" label="leisure= picnic_table" icon="" />
-		 <button type="tag" label="amenity= drinking_water" icon="" />
+		 <button type="tag" label="info=guidepost (dest, dist)" icon="" />
+		 <button type="tag" label="info=route_marker (dir only)" icon="" />
 	</row>
 	<row>
 		 <button type="tag" label="amenity= parking" icon="" />
@@ -395,6 +384,14 @@
 		 <button type="tag" label="amenity= bench" icon="" />
 		 <button type="tag" label="backrest= yes" icon="" />
 	 </row>
+	<row>
+		 <button type="tag" label="leisure= picnic_table" icon="" />
+		 <button type="tag" label="amenity= drinking_water" icon="" />
+	</row>
+	<row>
+		 <button type="tag" label="shelter_type= sun_shelter" icon="" />
+		 <button type="tag" label="amentity= bbq" icon="" />
+	</row>
 </layout>
 
 
